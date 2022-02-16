@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #div1 {
+            position: absolute;
+            background: #38b668;
+            width: 350px;
+            height: 150px;
+            top: 20%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border: 2px solid black;
+        }
+        #div2 {
+            position: absolute;
+            background: #4022ac;
+            width: 350px;
+            height: 150px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border: 2px solid black;
+        }
+    </style>
+    <script src="app.js"></script>
+
+</head>
+<body>
+    <div id="div1" onmouseover="changeTextColor()" onmouseout="resetTextColor()">
+        <h3>This is div1</h3>
+    </div>
+    <div id="div2" onmouseover="changeTextColor2()" onmouseout="resetTextColor2()">
+        <h3>This is div2</h3>
+    </div>
+</body>
+</html>
