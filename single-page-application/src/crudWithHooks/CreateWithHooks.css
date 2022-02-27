@@ -1,0 +1,21 @@
+fieldset {
+    background-color: #eeeeee;
+    padding-right: 50px;
+  }
+  
+  label {
+      margin-left: 10px;
+      margin-right: 10px;
+  }
+legend {
+    background-color: gray;
+    color: white;
+    padding: 5px 10px;
+}
+  #button {
+      margin-left: 10px;
+      margin-right: 10px;
+  }
+  input {
+    margin: 5px;
+  }
